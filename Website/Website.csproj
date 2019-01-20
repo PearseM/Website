@@ -8,4 +8,13 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\css\site.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="wwwroot\images\4090-234_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
 </Project>
